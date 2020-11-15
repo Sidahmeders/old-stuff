@@ -1,0 +1,18 @@
+{
+  "name": "node_crashcourse",
+  "version": "1.0.0",
+  "description": "\"node crash course\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "sid ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

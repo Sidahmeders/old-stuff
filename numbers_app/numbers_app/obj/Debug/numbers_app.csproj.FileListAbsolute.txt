@@ -1,0 +1,7 @@
+C:\Users\hp\Desktop\numbers_app\numbers_app\bin\Debug\numbers_app.exe.config
+C:\Users\hp\Desktop\numbers_app\numbers_app\bin\Debug\numbers_app.exe
+C:\Users\hp\Desktop\numbers_app\numbers_app\bin\Debug\numbers_app.pdb
+C:\Users\hp\Desktop\numbers_app\numbers_app\obj\Debug\numbers_app.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\numbers_app\numbers_app\obj\Debug\numbers_app.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\numbers_app\numbers_app\obj\Debug\numbers_app.exe
+C:\Users\hp\Desktop\numbers_app\numbers_app\obj\Debug\numbers_app.pdb

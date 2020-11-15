@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    background: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
+}
+
+:root{
+    --nav-col:rgb(160, 160, 160);
+    --card-col:rgb(255, 255, 255);
+    --form-col:rgb(255, 255, 255);
+}
+ 
+.nav{
+    background: var(--nav-col);
+    transform: translateY(-8px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 98.8%;
+    height: auto;
+    z-index: 99;
+    border-bottom: solid;
+    color: white;
+}
+.logo{
+    background: var(--nav-col);
+    font: bold 22px normal ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px;
+    margin: 2px 10px;
+}
+.logo h1{
+    background: var(--nav-col);
+    color: white;
+}
+.logo i{
+    background: var(--nav-col);
+    color: whitesmoke;
+}
+.links{
+    background: var(--nav-col);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.links i{
+    background: var(--nav-col);
+}
+.h2{
+    background: var(--nav-col);
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    margin: 2px 20px;
+}
+.h2:hover{
+    color: rgb(0, 0, 0);
+    background: white;
+    border-radius: 5%;
+    font-weight: bold;
+} 
+.form{
+    background: var(--form-col);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    transform: translate(0px, 99px);
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.form h1{
+    background: var(--form-col);
+}
+.form i{
+    background: var(--form-col);
+}
+.form input{
+    background: rgb(255, 249, 249);
+}
+.form div{
+    background: var(--form-col);
+}
+.inpu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 290px;
+    height: 45px;
+    margin-bottom: 25px;
+    outline: none;
+    border-radius: 5px;
+}
+.btn{
+    margin-bottom: 15px;
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    background: rgb(247, 246, 246);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    outline: none;
+    border: 0.5px solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.9s;
+}
+.btn:hover{
+    color: black;
+    border: 2px solid rgb(70, 14, 14);
+    background: white;
+    font-size: large;
+    cursor: pointer;
+ }
+.btn:active{
+    transform: translate(10px, 5px);
+    box-shadow: -15px 12px 18px black;
+}
+.main{
+    background: #fff;
+    border-top: solid;
+    width: 100%;
+    height: auto;
+    position: relative;
+    transform: translate(0px, 99px);
+}
+
+#features{
+    width: 100%;
+    height: auto;
+    padding: 0.3%;
+}
+.sect-1{
+    display: flex; 
+}
+.font{
+    width: 16%;
+    font-size: xx-large;
+}
+.text{
+    width:  84%;
+}
+.text h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+.text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: large;
+}
+.youtube{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 45%;
+}
+.youtube iframe{
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    transform: translate(-50%, 20% );
+}
+
+#why{
+   width: 100%;
+   height: auto; 
+   display: flex;
+   justify-content: space-evenly;
+} 
+.sect-2{
+    background: var(--card-col);
+    border: solid;
+    width: 33%;
+    height: auto;
+    margin: 3% 2%;
+}
+.offer{
+   background: var(--card-col);
+   border-bottom: solid;
+   padding: 1%;
+   width: 100%;
+   height: auto;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-2{
+    background: var(--card-col);
+    margin: 3%; 
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+    height: 69%;
+
+}
+.sect-2 h1{
+    background: var(--card-col);
+}
+.sect-2 h4{
+    background: var(--card-col);
+}
+.text-2 ul{
+    background: var(--card-col);
+    list-style: lower-greek
+}
+.text-2 li{
+    background: var(--card-col);
+    text-align: left;
+    padding: 3% 5%;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    background: var(--card-col);
+    width: 100%;
+    height: 9%;
+}
+.select{
+    margin-bottom: 15px;
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    background: rgb(247, 246, 246);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    outline: none;
+    border: 0.5px solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 1.2s;
+}
+.select:hover{
+    color: black;
+    border: 5px solid;
+    background: white;
+    font-size: large;
+    cursor: pointer;
+}
+.select:focus  { 
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 0px; 
+  }
+
+#exercise{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.exert{
+    background: rgb(211, 211, 211);
+    width: 100%;
+    height: auto; 
+}
+.exert h3{
+    font-size: x-large;
+}
+.ex-1 h4{
+    text-align: left;
+    font-size: larger;
+}
+.ex-1 p, li{
+    text-align: left;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.footer{
+    border: solid;
+    width: 100%;
+    height: auto;
+    background: rgb(27, 87, 128);
+    position: relative;
+    transform: translateY(99px);
+    display: flex;
+    flex-direction: row;
+    
+}
+.foot{
+    background: rgb(0, 0, 0);
+    width: 33.33%;
+    padding: 3%;
+}
+.foot h3{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 3%;
+    text-align: left;
+}
+.foot p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 5% 2%;
+    border-radius: 3%;
+}
+.foot li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+.foot  li a:hover{
+    color: rgb(0, 0, 0);
+    background: white;
+    font-weight: bold;
+}
+.foot .ul, .li{
+    background: rgb(0, 0, 0);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.foot-f{
+    background: rgb(0, 0, 0);
+    width: 33.33%;
+    padding: 3%;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.foot-f h3{
+    background: black;
+    color: white;
+}
+.font-2 i{
+    font-size: xx-large;
+    padding: 3% 7%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    
+}
+.font-2 i:hover{
+    background: rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
+}
+.foot-f p{
+    background: black;
+    color: white;
+    font-size: medium;
+}
+
+
+
+@media (max-width: 1100px) {
+    #why{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sect-2{
+        width: 56%;
+    }
+    .exert img{
+        width: 60%
+    }
+}
+
+@media (max-width: 960px) {
+    .exert img{
+        width: 66%
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot, .foot-f{
+        width: 100%;
+        padding: 0;
+        font-size: 17px;
+    }
+    .foot ul li{
+        display: inline-block;
+        padding: 10px;
+        margin: 0 5px;
+    }
+    .foot-f p{
+        font-size: 17px;
+        margin-top: 35px;
+    }
+    .foot-f h3{
+        margin-bottom: 35px;
+        font-size: 28px
+    }
+}
+
+@media (max-width: 750px) {
+    .nav{
+        position: relative;
+        width: 100%;
+        height: auto;
+        border: transparent;
+    }
+    .form{
+        transform: translate(0px, 0px);
+    }
+    .sect-2{
+        width: 70%;
+    }
+    .main{
+        transform: translate(0px, 0px);
+    }
+    .exert img{
+        width: 70%
+    }
+}
+
+@media (max-width:600px) {
+    .sect-2{
+        width: 79%;
+    }
+    .exert img{
+        width: 80%
+    }
+}

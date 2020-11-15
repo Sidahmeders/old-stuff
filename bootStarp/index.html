@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>bootstrap cheatSheet</title>
+  </head>
+  <body>
+
+   <!-- container div_one -->
+   <div class="container">
+
+     <!-- photography -->
+    <h1 class="page-header">Hello, world!<small class="text-muted">secondary text</small></h1>
+    <hr>
+    <p class="lead">Lorem ipsum dolor sit <del>amet consectetur</del> adipisicing elit. 
+      Ullam corrupti odit<mark> tenetur recusandae quam dolorum</mark>,</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ullam corrupti odit tenetur recusandae quam dolorum, 
+        corporis id adipisci <u>atque enim</u>, 
+        placeat aspernatur consectetur quibusdam ad suscipit 
+        rem dolores, expedita earum.</p>
+    <hr>
+
+    <!-- alignment -->
+    <p class="text-left">left aligned text.</p>
+    <p class="text-right text-capitalize">right aligned text.</p>
+    <p class="text-center text-lowercase">centered Aligned text.</p>
+    <p class="text-justify text-uppercase">justified text.</p>
+    <p class="text-nowrap text-center">No wraped text.</p>
+
+    <!-- quick floats -->
+     <div class="float-right">Div floated to right</div>
+     <div class="float-left">Div floated to left</div>
+     <div class="clearfix"></div>
+     <hr>
+     
+     <!-- blockQuote -->
+    <blockquote class="blockquote text-right">
+     <p>"thinking is difficult that's why most people judge."</p>
+     <footer class="blockquote-footer text-right">Quote by <cite title="carl jung">carl jung</cite></footer>
+    </blockquote>
+  
+    <!-- lists -->
+    <ul class="list-unstyled">
+      <li>item one</li>
+      <li>item two</li>
+      <li>item three</li>
+      <li>item four</li>
+    </ul>
+
+    <ul class="list-inline">
+      <li class="list-inline-item">item 1</li>
+      <li class="list-inline-item">item 2</li>
+      <li class="list-inline-item">item 3</li>
+      <li class="list-inline-item">item 4</li>
+    </ul>
+
+    <!-- code -->
+    <code>
+      &lt;h1&gt text heading &lt;/h1&gt
+    </code>
+    <br>
+    change directory with<kbd>cd</kbd>
+    <br>
+    to edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+    <hr>
+     
+    <!-- contextual colors -->
+    <p class="">Hello man</p>
+    <p class="text-primary">Hello world</p>
+    <p class="text-success">Hello girls</p>
+    <p class="text-info">Hello kids</p>
+    <p class="text-danger">Hello computers</p>
+    <p class="text-warning">Hello dogs</p>
+    <p class="text-muted">Hello chinigami</p>
+
+    <hr>
+     <!-- contextual background_colors -->
+     <p class="">Hello man</p>
+     <p class="bg-primary">Hello world</p>
+     <p class="bg-success">Hello girls</p>
+     <p class="bg-info">Hello kids</p>
+     <p class="bg-danger">Hello computers</p>
+     <p class="bg-warning">Hello dogs</p>
+     <p class="bg-muted">Hello chinigami</p>
+
+   </div>
+
+   <!-- container div_two -->
+   <hr>
+   <div class="container" style="background: rgb(218, 218, 218);padding: 20px;">
+     <!-- buttons -->
+    <button class="btn btn-light">button</button>
+    <a href="#" class="btn btn-light" role="button"> link</a>
+    <input type="submit" class="btn btn-light" value="submit_V">
+    <p></p>
+
+     <!-- contextual buttons -->
+    <button type="button" class="btn btn-default">default</button>
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-secondary">secondary</button>
+    <button type="button" class="btn btn-success">success</button>
+    <button type="button" class="btn btn-danger">danger</button>
+    <button type="button" class="btn btn-warning">warning</button>
+    <button type="button" class="btn btn-info">more-info</button> 
+    <button type="button" class="btn btn-light">light-sky</button>
+    <button type="button" class="btn btn-dark">dark-knight</button>
+    <button type="button" class="btn btn-link"></button> 
+    <p></p>
+     
+     <!-- outline buttons -->
+    <button type="button" class="btn btn-outline-default">outline</button>
+    <button type="button" class="btn btn-outline-primary">primary</button>
+    <button type="button" class="btn btn-outline-secondary">secondary</button>
+    <button type="button" class="btn btn-outline-success">success</button>
+    <button type="button" class="btn btn-outline-danger">danger</button>
+    <button type="button" class="btn btn-outline-warning">warning</button>
+    <button type="button" class="btn btn-outline-info">more-info</button> 
+    <button type="button" class="btn btn-outline-light">light-sky</button>
+    <button type="button" class="btn btn-outline-dark">dark-knight</button>
+    <button type="button" class="btn btn-outline-link"></button> 
+    <p></p>
+
+     <!-- button sizes -->
+    <button class="btn btn-primary btn-lg">default</button>
+    <button class="btn btn-secondary ">default</button>
+    <button class="btn btn-dark btn-sm">default</button>
+
+   </div>
+   
+    <!-- container div_three -->
+   <hr>
+   <div class="container">
+    
+     <!-- group form -->
+    <form>
+      <div class="form-group">
+        <label style="font-weight: bolder;">name</label>
+        <input type="text" placeholder="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label style="font-weight: bolder;">email</label>
+        <input type="email" placeholder="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label style="font-weight: bolder;">message</label>
+        <textarea class="form-control"> </textarea>
+      </div>
+      <div class="form-group">
+        <label style="font-weight: bolder;">gender</label>
+        <select class="form-control">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label style="font-weight: bolder;">upload file</label>
+        <input type="file">
+        <p class="help-block">only png and jpg allowed</p>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label"><input type="checkbox" class="form-check-input">check me out</label>
+      </div>
+      <button type="submit" class="btn btn-secondary">login</button>
+    </form> 
+    <hr>
+    
+     <!-- inline form -->
+    <form class="form-inline">
+      <div class="form-group" style="margin: 5px;">
+        <label style="font-weight: bold; margin: 2px;">email</label>
+        <input type="email" placeholder="email" class="form-control">
+      </div>
+      <div class="form-group" style="margin: 5px;">
+        <label style="font-weight: bold; margin: 2px;">password</label>
+        <input type="password" class="form-control" placeholder="password">
+      </div>
+      <div class="form-check" style="margin: 5px;">
+        <label class="form-check-label"><input type="checkbox" class="form-check-input">remember me</label>
+      </div>
+      <button type="submit" class="btn btn-secondary">login</button>
+    </form>
+     
+   </div>
+
+  <!-- container div_four -->
+  <hr>
+  <div class="container">
+
+   <!-- table bordered -->
+  <table class="table table-bordered">
+   <thead>
+      <tr class="table-danger">
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success">
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr class="table-primary">
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- table hover -->
+  <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  
+  <!-- container div_five -->
+  <hr>
+  <div class="container">
+    <!-- nav-bar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+   <a class="navbar-brand btn btn-light text-dark" href="#" >Navbar</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link btn btn-light" href="#" style="margin-right: 3px;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn btn-light text-dark" href="#" style="margin-right: 3px;">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle btn btn-light text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled btn btn-dark text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    </div>
+   </nav>
+
+    <!-- alerts-->
+    <hr>
+    <div class="alert alert-success" role="alert">do you remember me</div>
+    <div class="alert alert-primary">the best is yet to come</div>
+    <div class="alert alert-danger">just do it </div>
+    <div class="alert alert-secondary">you can do anything but not everything</div>
+
+    <!-- progress-bar -->
+    <hr>
+    <div class="progress" style="height: 24px;">
+      <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 35%; font-size: 15px;">167% pure_strength in progress</div>
+    </div>
+
+    <!-- label -->
+    <hr>
+    <div class="form-inline">
+    <h4><span class="label bg-danger text-light" style="border-radius: 5px; padding: 5px;margin: 4px;">luffy</span></h4>
+    <h4><span class="label bg-secondary text-light" style="border-radius: 5px; padding: 5px; margin: 4px;">ichigo</span></h4>
+    <h4><span class="label bg-warning text-light" style="border-radius: 5px; padding: 5px;margin: 4px;">naruto</span></h4>
+    <h4><span class="label bg-dark text-light" style="border-radius: 5px; padding: 5px;margin: 4px;">kaneki</span></h4>
+    </div>
+    <p></p>
+    <div class="form-inline">
+    <h5><span class="label bg-primary text-light" style="border-radius: 5px; padding: 5px;margin: 4px;">meliodas</span></h5>
+    <h5><span class="label bg-dark text-light" style="border-radius: 5px; padding: 5px; margin: 4px;">itachi</span></h5>
+    <h5><span class="label bg-info text-light" style="border-radius: 5px; padding: 5px;margin: 4px;">saitama</span></h5>
+    <h5><span class="label bg-success text-light" style="border-radius: 5px; padding: 5px;margin: 4px;">medoriya</span></h5>
+    </div>
+
+    <!-- badges -->
+    <hr>
+    <h1>Leg workout <span class="badge badge-secondary">new</span></h1>
+    <h3>Abs workout <span class="badge badge-secondary">new</span></h3>
+    <h5>upperCore workout <span class="badge badge-secondary">new</span></h5>
+    <p></p>
+
+    <button type="button" class="btn btn-dark">Profile <span class="badge badge-light">5</span><span class="sr-only">unread message</span></button>
+    <button type="button" class="btn btn-primary badge-pill">notifications <span class="badge badge-light">12</span></button>
+
+    <!--images -->
+    <hr>
+    <div class="container" style="width: 100%; height: auto;">
+      <img src="images\after-the-rain-architecture-background-364096.jpg" alt="responsive_image" class="img-thumbnail" width="300px">
+      <img src="images\architectural-design-architecture-buildings-830891.jpg" alt="responsive_image" class="img-thumbnail" width="300px">
+      <img src="images\architecture-buildings-city-325185.jpg" alt="responsive_image" class="rounded" width="300" height="203" style="margin: 10px 5px;">
+      <img src="images\aerial-architectural-design-architecture-373912.jpg" alt="responsive_image" class="img-thumbnail" width="300px">
+      <img src="images\architecture-buildings-city-373965.jpg" alt="responsive_image" class="rounded" width="300" height="203" style="margin: 10px 5px;">
+      <img src="images\ancient-architecture-building-1010657.jpg" alt="responsive_image" class="img-thumbnail" width="300px">
+    </div>
+
+  </div>
+
+
+  <!-- container div_six -->
+  <hr>
+  <div class="container">
+    <div class="row">
+     <div class="col-md-8">
+      <p>Stoicism was a school of philosophy founded in Athens by Zeno of Citium in the early third century BC. Its
+          name is derived from the Greek stoa, meaning porch, because that’s where Zeno first taught his students.
+          The philosophy asserts that virtue (meaning, chiefly, the four cardinal virtues of self-control, courage,
+          justice, and wisdom) is happiness, and it is our perceptions of things—rather than the things themselves—
+          that cause most of our trouble. Stoicism teaches that we can’t control or rely on anything outside what
+          Epictetus called our “reasoned choice”—our ability to use our reason to choose how we categorize,
+          respond, and reorient ourselves to external events.
+          Early Stoicism was much closer to a comprehensive philosophy like other ancient schools whose
+          names might be vaguely familiar: Epicureanism, Cynicism, Platonism, Skepticism. Proponents spoke of
+          diverse topics, including physics, logic, cosmology, and many others. One of the analogies favored by the
+          Stoics to describe their philosophy was that of a fertile field. Logic was the protective fence, physics was
+          the field, and the crop that all this produced was ethics—or how to live.
+          As Stoicism progressed, however, it focused primarily on two of these topics—logic and ethics.
+          Making its way from Greece to Rome, Stoicism became much more practical to fit the active, pragmatic
+          lives of the industrious Romans. As Marcus Aurelius would later observe, “I was blessed when I set my
+          heart on philosophy that I didn’t fall into the sophist’s trap, nor remove myself to the writer’s desk, or
+          chop logic, or busy myself with studying the heavens.”</p>
+     </div>
+     <div class="col-md-4">
+      <p>each day presents the chance to overthink things. What should I wear? Do they like me? Am I eating
+          well enough? What’s next for me in life? Is my boss happy with my work?
+          Today, let’s focus just on what’s in front of us. We’ll follow the dictum that New England Patriots
+          coach Bill Belichick gives his players: “Do your job.” Like a Roman, like a good soldier, like a master of
+          our craft. We don’t need to get lost in a thousand other distractions or in other people’s business.
+          Marcus says to approach each task as if it were your last, because it very well could be. And even if it
+          isn’t, botching what’s right in front of you doesn’t help anything. Find clarity in the simplicity of doing
+          your job today.</p>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-md-4">
+      <p>“The chief task in life is simply this: to identify and separate matters so that I can say clearly to
+          myself which are externals not under my control, and which have to do with the choices I
+          actually control. Where then do I look for good and evil? Not to uncontrollable externals, but
+          within myself to the choices that are my own..”</p>
+     </div>
+     <div class="col-md-4">
+      <p>“What is the fruit of these teachings? Only the most beautiful and proper harvest of the truly
+          educated—tranquility, fearlessness, and freedom. We should not trust the masses who say only
+          the free can be educated, but rather the lovers of wisdom who say that only the educated are
+          free.”</p>
+     </div>
+     <div class="col-md-4">
+      <p>“How many have laid waste to your life when you weren’t aware of what you were losing, how
+          much was wasted in pointless grief, foolish joy, greedy desire, and social amusements—how
+          little of your own was left to you. You will realize you are dying before your time!”</p>
+     </div>
+    </div>
+  </div>
+
+
+
+
+
+    
+<div style="height:350px;"></div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

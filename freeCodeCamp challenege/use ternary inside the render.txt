@@ -1,0 +1,43 @@
+const inputStyle = {
+  width: 235,
+  margin: 5
+}
+
+class CheckUserAge extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: '',
+      userAge: '' 
+    };
+    this.submit = this.submit.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleChange(e) {
+    this.setState({
+      input: e.target.value,
+      userAge: ''
+    });
+  }
+  submit() {
+    this.setState(state => ({
+      userAge: state.input
+    }));
+  }
+  render() {
+    const buttonOne = <button onClick={this.submit} style={{margin: 5}}>Submit</button>;
+    const buttonTwo = <button style={{margin: 5}}>You May Enter</button>;
+    const buttonThree = <button style={{margin: 5}}>You Shall Not Pass</button>;
+    return (
+      <div>
+        <h3>Enter Your Age to Continue</h3>
+        <input
+          style={inputStyle}
+          type="number"
+          value={this.state.input}
+          onChange={this.handleChange} /><br />
+      {this.state.userAge >= 18 ? buttonTwo: this.state.userAge > 0 ? buttonThree: buttonOne}
+      </div>
+    );
+  }
+};

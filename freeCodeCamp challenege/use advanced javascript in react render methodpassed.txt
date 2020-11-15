@@ -1,0 +1,52 @@
+const inputStyle = {
+  width: 235,
+  margin: 5
+}
+
+class MagicEightBall extends React.Component {
+constructor(props) {
+  super(props);
+  this.state = {
+    randomIndex: '',
+    textInput: ''
+  };
+ this.changed = this.changed.bind(this);
+ this.clicked = this.clicked.bind(this);
+ }
+
+ changed(event) {
+  this.setState({
+    textInput: event.target.value
+  });
+}
+
+ clicked() {
+   if(this.state.textInput) {
+     this.setState({
+        randomIndex: Math.floor(Math.random()*10)
+   });
+   }
+ }
+ render() {
+   const possibleValue = [
+     'dont fall in love stand ',
+     'be yourSelf with the world ',
+     'dont rush things back ',
+     'god is the one we are ',
+     'the best is yet to come ',
+     'never mind just do it ',
+     'work as if it your last chance ',
+     'have fun, never forget hardship ',
+     'make it or break it ',
+     'lose or win never give up '
+   ];
+  const index = this.state.randomIndex;
+   return(
+     <div> 
+     <input type="text" style={inputStyle} onChange={this.changed} /> <br />
+     <button style={{margin: 5}} onClick={this.clicked} >random quote</button>
+     <h3>{possibleValue[index]}</h3>
+     </div>
+   );
+ }
+};

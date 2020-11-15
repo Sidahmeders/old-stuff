@@ -1,0 +1,13 @@
+GET http://localhost:3004/posts
+
+Authorization: 
+
+###
+
+POST http://localhost:3004/login
+Content-Type: application/json
+
+{
+    "userName": "mehoki Doflamingo"
+}
+

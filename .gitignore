@@ -1,0 +1,11 @@
+node_modules
+img
+image
+images
+pic
+pics
+pictures
+*.jpeg
+*.jpg
+*.png
+*.svg

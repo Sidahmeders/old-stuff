@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: max-content;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+form .fr-item {
+    display: flex;
+    margin-top: 2em;
+}
+
+label {
+    display: block;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    align-self: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    font-size: 17px;
+}
+
+
+
+.btn {
+    text-decoration: none;
+    margin-left: 1em;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: .5s ease-in-out;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+    border: transparent;
+    cursor: pointer;
+    transform: translate(-1px, -1px);
+    font-size: 1.1em;
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+}
+
+.hide {
+    display: none;
+    content: 'loading...';
+}
+
+#load-div {
+    display: none;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+

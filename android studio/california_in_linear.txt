@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/pic_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ocean" />
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/pic_view"
+        android:id="@+id/pebble_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pebble Beach"
+        android:textSize="30sp"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/pic_view"
+        android:id="@+id/california"
+        android:layout_below="@id/pebble_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="California"
+        android:textSize="25sp"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/pic_view"
+        android:layout_below="@id/california"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 miles away"
+        android:textSize="20sp"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+</LinearLayout>

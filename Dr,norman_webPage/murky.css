@@ -1,0 +1,184 @@
+body{
+     text-align: center;
+     background-color: rgba(104, 88, 55, 0.555); 
+}
+
+#head1{ border: 2px solid transparent;
+        padding: 10px;
+        margin: 20px;
+        background-color: rgb(250, 242, 232); 
+        border-radius: 35px;
+}
+h1{
+    font-size:50px;
+    color:#222222;
+    
+
+}
+.a1{
+    font:normal normal 23px "'Times New Roman', Times, serif";
+}
+.img{
+      border: 5px solid transparent;
+      background-color: rgb(233, 233, 233);
+     padding-top: 40px ;
+     border-radius:45px 45px 0px 0px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+    }
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    align-content: center;
+    border-radius: 5%
+}
+#footer{ 
+
+    border: 5% solid transparent;
+    padding: 10%;
+    border-radius:0px 0px 5% 5% ;
+    background-color: rgb(236, 230, 220);
+    }
+
+        
+.h22{ 
+     font:normal normal 35px "'Times New Roman', Times, serif";
+     padding: 30px;
+     margin-bottom:70px;
+     
+}
+.unorder{  text-align:left;  
+           margin-left:5%;
+           margin-right: 5%;
+           font-size: 20px;
+           padding: 6%;
+           line-height:2.2;
+           border: 10px ;
+          
+}
+.end{ 
+     font-size: 18px;     
+}
+.end2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:26px;  
+}
+a{  text-decoration:none;
+    color:#502c0a;
+}
+a:hover{
+    color:#685543;
+}
+strong{
+    border: 2px solid rgb(214, 221, 213);
+    background-color: rgb(105, 29, 44);
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    color: aliceblue;
+}
+li{
+ list-style-type: none;
+}
+
+
+/*  the end of my second first shot '11111111111111' */
+
+
+
+
+body
+{
+    margin: 0;
+    background: rgb(241, 240, 240);
+    font-weight: 300;
+    background-image: url('bg.jpeg');
+
+}
+
+header
+{
+    background: #d9c2ac;
+    position: relative;
+}
+
+header::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav
+{
+    float: left;
+}
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav ul li  a
+{
+color: #444;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+}
+
+nav a:hover
+{
+ background: rgb(255, 252, 252);
+ color: rgb(180, 169, 146);
+}
+
+
+nav a::before
+{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+
+    transition: all ease-in-out 500ms;
+
+
+}
+
+nav ul li:last-child
+{
+position: absolute;
+right: 0;
+bottom:  0;
+margin: 15px;
+margin-bottom: 0px;
+padding: 0;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+nav a:hover::before
+{
+    width: 100%;
+}
+
+nav ul li:last-child
+{
+    margin-right: auto;
+}

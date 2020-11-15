@@ -1,0 +1,33 @@
+<h1>Register</h1>
+
+<%- include('./partials/messages') %>
+
+<form action="/register" method="POST">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" 
+        value="<%= typeof name != 'undefined' ? name : '' %> " >
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email"
+        value="<%= typeof email != 'undefined' ? email : '' %>" >
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password"
+        value="<%= typeof password != 'undefined' ? password : '' %>" >
+    </div>
+
+    <div>
+        <label for="password2">Confirm Password</label>
+        <input type="password" name="password2"
+        value="<%= typeof password2 != 'undefined' ? password2 : '' %>" >
+    </div>
+    <button type="submit" id="register-btn">register</button>
+    <div id="loading" class="hide">loading..</div>
+</form>
+
+<a href="/login">Login</a>
+
+<script src="../js/btn.js"></script>

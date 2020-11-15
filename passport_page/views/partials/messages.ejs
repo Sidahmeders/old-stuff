@@ -1,0 +1,13 @@
+<% if(success_msg != "") { %>
+    <div class="success">
+        <%= success_msg %>
+    </div>
+<% } %>
+
+<% if(typeof errors != 'undefined') { %>
+    <%= errors[0].msg %>
+<% } %>
+
+<% if(error != 'undefined') { %>
+    <%= error %>
+<% } %>

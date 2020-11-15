@@ -1,0 +1,31 @@
+class MyComp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visibility: true
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick() {
+    this.setState(state => ({
+      visibility: !state.visibility
+    }));
+  }
+  render() {
+    if(this.state.visibility) {
+      return(
+        <div>
+        <button onClick={this.handleClick}>click me</button>
+        <p>i want to see light</p>
+        </div>
+      );
+    }else{
+      return(
+        <div>
+        <button onClick={this.handleClick}>click me</button>
+        <p>go where you never gone before</p>
+        </div>
+      );
+    }
+  }
+};

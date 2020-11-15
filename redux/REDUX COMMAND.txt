@@ -1,0 +1,7 @@
+npm init  >> " to start your project file "
+
+npm install redux --save  >> " to install a redux package "
+
+node "nameOfTheFile"  >> " to run your result in the console "
+
+npm install redux thunk --save  >> " to use asynchronous request "
